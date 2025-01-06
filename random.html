@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CS50 HomePage: About Trevor C. Justus</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <aside class="nav">
+        <div class="profile">
+          <img
+            src="assets/images/avatar3x.png"
+            alt="Trevor Chimamanda Justus' avatar"
+            width="60px"
+          />
+          <p>Big Trev</p>
+        </div>
+        <div class="explore">
+          <span>things to explore</span>
+          <div class="explore-links">
+            <div class="link">
+              <i class="bi bi-info-circle"></i><a href="index.html">Homepage</a>
+            </div>
+            <div class="link">
+              <i class="bi bi-camera"></i><a href="about.html">About Me</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="reach">
+          <span>reach me</span>
+          <div class="reach-links">
+            <div class="link">
+              <i class="bi bi-telephone"></i
+              ><a href="contact.html">Contact Me</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="theme-toggle">
+          <button class="theme mono theme-active">Monochrome</button>
+          <button class="theme color">Color</button>
+        </div>
+      </aside>
+      <main>
+        <p class="dateTime"></p>
+        <div class="main-content">
+          <video autoplay muted loop playsinline>
+            <source src="assets/images/vid.mp4" type="video/mp4" />
+            Your browser does not support this video.
+          </video>
+          <section id="random">
+            <div class="quote">
+              <img
+                src="assets/images/quote.jpg"
+                alt="quote icon"
+                class="quote-icon"
+              />
+              <h2>
+                Life is like a camera, focus on what’s important, capture the
+                good times, develop from the negatives, and if things don’t work
+                out, take another shot.
+              </h2>
+            </div>
+            <div class="quote-images">
+              <img src="assets/images/quote2.png" alt="image" />
+              <img src="assets/images/quote1.png" alt="image" />
+            </div>
+          </section>
+        </div>
+      </main>
+    </header>
+
+    <!-- Javascript -->
+    <script src="script.js"></script>
+  </body>
+</html>
